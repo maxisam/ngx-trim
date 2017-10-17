@@ -1,3 +1,8 @@
+[![npm](https://img.shields.io/npm/dt/ngx-trim.svg?style=flat-square)](https://www.npmjs.com/package/ngx-trim)
+[![GitHub release](https://img.shields.io/github/release/maxisam/ngx-trim.svg?style=flat-square)](https://github.com/maxisam/ngx-trim/releases)
+[![npm](https://img.shields.io/npm/l/ngx-trim.svg?style=flat-square)]()
+
+
 # ngx-trim
 
 ## Installation
