@@ -60,7 +60,7 @@ Once your library is imported, you can use its components, directives and pipes 
 
 Trim text after input event, `focusout` or `keyup`.
 
-You can set it as `ngxTrim='focusout'` or `ngxTrim='keyup'`
+You can set it as `ngxTrim='focusout'` or 
 
 ## Development
 
@@ -75,6 +75,9 @@ To lint all `*.ts` files:
 ```bash
 $ npm run lint
 ```
+## Acknowledgement 
+
+This project uses [generator-angular2-library](https://github.com/jvandemo/generator-angular2-library)
 
 ## License
 
