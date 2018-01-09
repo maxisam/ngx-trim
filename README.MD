@@ -5,6 +5,8 @@
 
 # ngx-trim
 
+Demo: https://angular-ap2pq8.stackblitz.io
+
 ## Installation
 
 To install this library, run:
