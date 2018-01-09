@@ -47,6 +47,12 @@
                                 <li class="link">
                                   <a href="../index.html" ><span class="fa fa-file-text-o"></span>README</a>
                                 </li>
+                                <li class="link">
+                                    <a href="./license.html"
+                                        >
+                                        <span class="fa fa-file-text-o"></span>LICENSE
+                                    </a>
+                                </li>
                         </ul>
                     </li>
             
@@ -170,6 +176,12 @@
                                        </li>
                                        <li class="link">
                                          <a href="../index.html" ><span class="fa fa-file-text-o"></span>README</a>
+                                       </li>
+                                       <li class="link">
+                                           <a href="./license.html"
+                                               >
+                                               <span class="fa fa-file-text-o"></span>LICENSE
+                                           </a>
                                        </li>
                                </ul>
                            </li>
@@ -301,6 +313,7 @@
             </p>
             <p class="comment">
                         <code><a href="https://angular.io/docs/ts/latest/api/forms/index/ControlValueAccessor-interface.html" target="_blank" >ControlValueAccessor</a></code>
+                        <code><a href="https://angular.io/docs/ts/latest/api/core/index/OnInit-interface.html" target="_blank" >OnInit</a></code>
             </p>
 
 
@@ -345,6 +358,9 @@
                                          <a href="#_onTouched">_onTouched</a>
                                     </li>
                                     <li>
+                                         <a href="#ngOnInit">ngOnInit</a>
+                                    </li>
+                                    <li>
                                          <a href="#registerOnChange">registerOnChange</a>
                                     </li>
                                     <li>
@@ -352,6 +368,20 @@
                                     </li>
                                     <li>
                                          <a href="#writeValue">writeValue</a>
+                                    </li>
+                                </ul>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="col-md-4">
+                                <h6><b>Inputs</b></h6>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="col-md-4">
+                                <ul class="index-list">
+                                    <li>
+                                        <a href="#ngxTrim">ngxTrim</a>
                                     </li>
                                 </ul>
                             </td>
@@ -385,7 +415,7 @@
                             </tr>
                                     <tr>
                                         <td class="col-md-4">
-                                            <div class="io-line">Defined in <a href="" data-line="19" class="link-to-prism">src/ngx-trim.directive.ts:19</a></div>
+                                            <div class="io-line">Defined in <a href="" data-line="21" class="link-to-prism">src/ngx-trim.directive.ts:21</a></div>
                                         </td>
                                     </tr>
             
@@ -430,6 +460,30 @@
                     </table>
             </section>
 
+            <section>
+                <h3 id="inputs">Inputs</h3>
+                    <table class="table table-sm table-bordered">
+                        <tbody>
+                            <tr>
+                                <td class="col-md-2">
+                                    <a name="ngxTrim"></a>
+                                    <code>ngxTrim</code>
+                                </td>
+                                <td class="col-md-10">
+                                      <p>
+                                        <em>Type:</em>    <code>&quot;keyup&quot; | &quot;focusout&quot;</code>
+
+                                      </p>
+                                </td>
+                            </tr>
+                                    <tr>
+                                        <td class="col-md-2" colspan="2">
+                                            <div class="io-line">Defined in <a href="" data-line="17" class="link-to-prism">src/ngx-trim.directive.ts:17</a></div>
+                                        </td>
+                                    </tr>
+                        </tbody>
+                    </table>
+            </section>
 
 
 
@@ -444,19 +498,19 @@
                             </tr>
                                 <tr>
                                     <td class="col-md-4">
-                                        <i>Arguments : </i><code>'$event.target' </code>
+                                        <i>Arguments : </i><code>'$event' </code>
                                     </td>
                                 </tr>
                             <tr>
                                 <td class="col-md-4">
-            <code>keyup(element: HTMLInputElement)</code>
+            <code>keyup(event: <a href="https://angular.io/docs/ts/latest/api/router/index/Event-type-alias.html" target="_blank">Event</a>)</code>
                                 </td>
                             </tr>
             
             
                                     <tr>
                                         <td class="col-md-4">
-                                            <div class="io-line">Defined in <a href="" data-line="30" class="link-to-prism">src/ngx-trim.directive.ts:30</a></div>
+                                            <div class="io-line">Defined in <a href="" data-line="36" class="link-to-prism">src/ngx-trim.directive.ts:36</a></div>
                                         </td>
                                     </tr>
             
@@ -486,7 +540,7 @@
             
                                     <tr>
                                         <td class="col-md-4">
-                                            <div class="io-line">Defined in <a href="" data-line="16" class="link-to-prism">src/ngx-trim.directive.ts:16</a></div>
+                                            <div class="io-line">Defined in <a href="" data-line="18" class="link-to-prism">src/ngx-trim.directive.ts:18</a></div>
                                         </td>
                                     </tr>
             
@@ -547,7 +601,39 @@
             
                                     <tr>
                                         <td class="col-md-4">
-                                            <div class="io-line">Defined in <a href="" data-line="17" class="link-to-prism">src/ngx-trim.directive.ts:17</a></div>
+                                            <div class="io-line">Defined in <a href="" data-line="19" class="link-to-prism">src/ngx-trim.directive.ts:19</a></div>
+                                        </td>
+                                    </tr>
+            
+                            <tr>
+                                <td class="col-md-4">
+            
+                                        <div class="io-description">
+                                            <b>Returns : </b>    <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >void</a></code>
+            
+                                        </div>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <table class="table table-sm table-bordered">
+                        <tbody>
+                            <tr>
+                                <td class="col-md-4">
+                                    <a name="ngOnInit"></a>
+                                    <span class="name"><b> ngOnInit</b><a href="#ngOnInit"><span class="fa fa-link"></span></a></span>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="col-md-4">
+            <code>ngOnInit()</code>
+                                </td>
+                            </tr>
+            
+            
+                                    <tr>
+                                        <td class="col-md-4">
+                                            <div class="io-line">Defined in <a href="" data-line="30" class="link-to-prism">src/ngx-trim.directive.ts:30</a></div>
                                         </td>
                                     </tr>
             
@@ -579,7 +665,7 @@
             
                                     <tr>
                                         <td class="col-md-4">
-                                            <div class="io-line">Defined in <a href="" data-line="18" class="link-to-prism">src/ngx-trim.directive.ts:18</a></div>
+                                            <div class="io-line">Defined in <a href="" data-line="20" class="link-to-prism">src/ngx-trim.directive.ts:20</a></div>
                                         </td>
                                     </tr>
             
@@ -640,7 +726,7 @@
             
                                     <tr>
                                         <td class="col-md-4">
-                                            <div class="io-line">Defined in <a href="" data-line="19" class="link-to-prism">src/ngx-trim.directive.ts:19</a></div>
+                                            <div class="io-line">Defined in <a href="" data-line="21" class="link-to-prism">src/ngx-trim.directive.ts:21</a></div>
                                         </td>
                                     </tr>
             
@@ -701,7 +787,7 @@
             
                                     <tr>
                                         <td class="col-md-4">
-                                            <div class="io-line">Defined in <a href="" data-line="25" class="link-to-prism">src/ngx-trim.directive.ts:25</a></div>
+                                            <div class="io-line">Defined in <a href="" data-line="27" class="link-to-prism">src/ngx-trim.directive.ts:27</a></div>
                                         </td>
                                     </tr>
             
@@ -752,8 +838,9 @@
 
 
     <div class="tab-pane fade tab-source-code" id="source">
-        <pre class="line-numbers"><code class="language-typescript">import { Directive, ElementRef, forwardRef, Renderer2, HostListener } from &#x27;@angular/core&#x27;;
-import { NG_VALUE_ACCESSOR, ControlValueAccessor } from &#x27;@angular/forms&#x27;;
+        <pre class="line-numbers"><code class="language-typescript">import { Directive, ElementRef, forwardRef, HostListener, OnInit, Renderer2 } from &#x27;@angular/core&#x27;;
+import { Input } from &#x27;@angular/core&#x27;;
+import { ControlValueAccessor, NG_VALUE_ACCESSOR } from &#x27;@angular/forms&#x27;;
 
 const TRIM_VALUE_ACCESSOR &#x3D; {
   provide: NG_VALUE_ACCESSOR,
@@ -766,7 +853,8 @@ const TRIM_VALUE_ACCESSOR &#x3D; {
   selector: &#x27;input[ngxTrim]&#x27;,
   providers: [TRIM_VALUE_ACCESSOR]
 })
-export class NgxTrimDirective implements ControlValueAccessor {
+export class NgxTrimDirective implements ControlValueAccessor, OnInit {
+  @Input(&#x27;ngxTrim&#x27;) onEvent: &#x27;keyup&#x27; | &#x27;focusout&#x27;;
   _onChange(_: any) { }
   _onTouched() { }
   registerOnChange(fn: (value: any) &#x3D;&gt; any): void { this._onChange &#x3D; fn; }
@@ -779,12 +867,19 @@ export class NgxTrimDirective implements ControlValueAccessor {
   writeValue(value: any): void {
     value &amp;&amp; this._renderer.setProperty(this._elementRef.nativeElement, &#x27;value&#x27;, value);
   }
+  ngOnInit() {
+    this.onEvent &#x3D; this.onEvent || &#x27;focusout&#x27;;
+  }
 
-  @HostListener(&#x27;keyup&#x27;, [&#x27;$event.target&#x27;])
-  _onKeyUp(element: HTMLInputElement) {
-    let val &#x3D; element.value.trim();
-    this.writeValue(val);
-    this._onChange(val);
+  @HostListener(&#x27;keyup&#x27;, [&#x27;$event&#x27;])
+  @HostListener(&#x27;focusout&#x27;, [&#x27;$event&#x27;])
+  _onKeyUp(event: Event) {
+    if (this.onEvent &#x3D;&#x3D;&#x3D; event.type) {
+      let element &#x3D; &lt;HTMLInputElement&gt;event.target;
+      let val &#x3D; element.value.trim();
+      this.writeValue(val);
+      this._onChange(val);
+    }
   }
 }
 </code></pre>

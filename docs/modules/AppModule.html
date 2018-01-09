@@ -47,6 +47,12 @@
                                 <li class="link">
                                   <a href="../index.html" ><span class="fa fa-file-text-o"></span>README</a>
                                 </li>
+                                <li class="link">
+                                    <a href="./license.html"
+                                        >
+                                        <span class="fa fa-file-text-o"></span>LICENSE
+                                    </a>
+                                </li>
                         </ul>
                     </li>
             
@@ -170,6 +176,12 @@
                                        </li>
                                        <li class="link">
                                          <a href="../index.html" ><span class="fa fa-file-text-o"></span>README</a>
+                                       </li>
+                                       <li class="link">
+                                           <a href="./license.html"
+                                               >
+                                               <span class="fa fa-file-text-o"></span>LICENSE
+                                           </a>
                                        </li>
                                </ul>
                            </li>
@@ -424,23 +436,41 @@
         <pre class="line-numbers"><code class="language-typescript">import { BrowserModule } from &#x27;@angular/platform-browser&#x27;;
 import { NgModule } from &#x27;@angular/core&#x27;;
 import { Component } from &#x27;@angular/core&#x27;;
+import { FormsModule } from &#x27;@angular/forms&#x27;;
 import { platformBrowserDynamic } from &#x27;@angular/platform-browser-dynamic&#x27;;
-import { NgxTrimModule } from &#x27;../dist/index&#x27;;
+import { NgxTrimModule } from &#x27;ngx-trim&#x27;;
 
 
 @Component({
-  selector: &#x27;app&#x27;,
+  selector: &#x27;my-app&#x27;,
+  styles:[&#x60;
+      :host{
+      display: flex;
+      top:0;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      position: absolute;
+      align-items: center;
+      justify-content: space-around;
+    }
+  &#x60;],
   template: &#x60;&lt;div&gt;
-    &lt;input type&#x3D;&quot;text&quot;  placeholder&#x3D;&quot;input&quot; [(ngModel)]&#x3D;&quot;testInput&quot; ngxTrim&gt;
-    &lt;div&gt;{{testInput}}&lt;/div&gt;
-  &lt;/div&gt;&#x60;
+  &lt;label&gt;Trim after focus out&lt;/label&gt;
+	&lt;input type&#x3D;&quot;text&quot; class&#x3D;&quot;form-control&quot; placeholder&#x3D;&quot;Type something&quot; [(ngModel)]&#x3D;&quot;testInput&quot; ngxTrim&gt;
+  &lt;div&gt;{{testInput}}&lt;/div&gt;
+  &lt;br/&gt;
+  &lt;label&gt;Trim after key up&lt;/label&gt;
+	&lt;input type&#x3D;&quot;text&quot; class&#x3D;&quot;form-control&quot; placeholder&#x3D;&quot;Type something&quot; [(ngModel)]&#x3D;&quot;testInput2&quot; ngxTrim&#x3D;&#x27;keyup&#x27;&gt;
+	&lt;div&gt;{{testInput2}}&lt;/div&gt;
+&lt;/div&gt;&#x60;
 })
 class AppComponent { }
 
 @NgModule({
   bootstrap: [AppComponent],
   declarations: [AppComponent],
-  imports: [BrowserModule, NgxTrimModule]
+  imports: [BrowserModule, FormsModule, NgxTrimModule ]
 })
 class AppModule { }
 

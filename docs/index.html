@@ -47,6 +47,12 @@
                                 <li class="link">
                                   <a href="./index.html"  class="active" ><span class="fa fa-file-text-o"></span>README</a>
                                 </li>
+                                <li class="link">
+                                    <a href="./license.html"
+                                        >
+                                        <span class="fa fa-file-text-o"></span>LICENSE
+                                    </a>
+                                </li>
                         </ul>
                     </li>
             
@@ -171,6 +177,12 @@
                                        <li class="link">
                                          <a href="./index.html"  class="active" ><span class="fa fa-file-text-o"></span>README</a>
                                        </li>
+                                       <li class="link">
+                                           <a href="./license.html"
+                                               >
+                                               <span class="fa fa-file-text-o"></span>LICENSE
+                                           </a>
+                                       </li>
                                </ul>
                            </li>
                    
@@ -265,7 +277,11 @@
                <div class="content getting-started">
                    <div class="content-data">
 
+<p><a href="https://www.npmjs.com/package/ngx-trim"><img src="https://img.shields.io/npm/dt/ngx-trim.svg?style=flat-square" alt="npm" class="img-responsive"></a>
+<a href="https://github.com/maxisam/ngx-trim/releases"><img src="https://img.shields.io/github/release/maxisam/ngx-trim.svg?style=flat-square" alt="GitHub release" class="img-responsive"></a>
+<a href=""><img src="https://img.shields.io/npm/l/ngx-trim.svg?style=flat-square" alt="npm" class="img-responsive"></a></p>
 <h1 id="ngx-trim">ngx-trim</h1>
+<p>Demo: <a href="https://angular-ap2pq8.stackblitz.io">https://angular-ap2pq8.stackblitz.io</a></p>
 <h2 id="installation">Installation</h2>
 <p>To install this library, run:</p>
 <pre class="line-numbers"><code class="language-bash">$ npm install ngx-trim --save</code></pre><h2 id="consuming-your-library">Consuming your library</h2>
@@ -293,10 +309,15 @@ import { NgxTrimModule } from &#39;ngx-trim&#39;;
 export class AppModule { }</code></pre><p>Once your library is imported, you can use its components, directives and pipes in your Angular application:</p>
 <pre class="line-numbers"><code class="language-xml">&lt;!-- You can now use your library component in app.component.html --&gt;
 
-&lt;input type=&quot;text&quot;  placeholder=&quot;input&quot; [(ngModel)]=&quot;testInput&quot; ngxTrim&gt;</code></pre><h2 id="development">Development</h2>
+&lt;input type=&quot;text&quot;  placeholder=&quot;input&quot; [(ngModel)]=&quot;testInput&quot; ngxTrim&gt;</code></pre><h2 id="features">Features</h2>
+<p>Trim text after input event, <code>focusout</code> or <code>keyup</code>.</p>
+<p>You can set it as <code>ngxTrim=&#39;focusout&#39;</code> or </p>
+<h2 id="development">Development</h2>
 <p>To generate all <code>*.js</code>, <code>*.d.ts</code> and <code>*.metadata.json</code> files:</p>
 <pre class="line-numbers"><code class="language-bash">$ npm run build</code></pre><p>To lint all <code>*.ts</code> files:</p>
-<pre class="line-numbers"><code class="language-bash">$ npm run lint</code></pre><h2 id="license">License</h2>
+<pre class="line-numbers"><code class="language-bash">$ npm run lint</code></pre><h2 id="acknowledgement">Acknowledgement</h2>
+<p>This project uses <a href="https://github.com/jvandemo/generator-angular2-library">generator-angular2-library</a></p>
+<h2 id="license">License</h2>
 <p>MIT © <a href="mailto:maxisam@gmail.com">Sam Lin</a></p>
 
 
