@@ -56,6 +56,11 @@ Once your library is imported, you can use its components, directives and pipes 
 <input type="text"  placeholder="input" [(ngModel)]="testInput" ngxTrim>
 
 ```
+## Features
+
+Trim text after input event, `focusout` or `keyup`.
+
+You can set it as `ngxTrim='focusout'` or `ngxTrim='keyup'`
 
 ## Development
 
