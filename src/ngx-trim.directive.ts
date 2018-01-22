@@ -25,7 +25,7 @@ export class NgxTrimDirective implements ControlValueAccessor, OnInit {
   ) { }
 
   writeValue(value: any): void {
-    value && this._renderer.setProperty(this._elementRef.nativeElement, 'value', value);
+    this._renderer.setProperty(this._elementRef.nativeElement, 'value', value);
   }
   ngOnInit() {
     this.onEvent = this.onEvent || 'focusout';
