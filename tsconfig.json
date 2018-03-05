@@ -9,9 +9,6 @@
       "dom"
     ],
     "skipLibCheck": true,
-    "types": [],
-    "exclude": [
-      "playground/**"
-    ]
+    "types": []
   }
 }
