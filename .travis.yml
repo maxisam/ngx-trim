@@ -28,4 +28,3 @@ script:
   - npm run test
   - npm run build
 after_success:
-  - npm publish .\dist\ngx-trim\
