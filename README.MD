@@ -6,7 +6,7 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.0.1.
 
-Demo: https://angular-ap2pq8.stackblitz.io
+Demo: https://stackblitz.com/github/maxisam/ngx-trim
 
 ## Installation
 
