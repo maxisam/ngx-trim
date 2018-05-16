@@ -1,24 +1,8 @@
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 
 import { NgxTrimDirective } from './ngx-trim.directive';
+import { Renderer2, ElementRef, inject } from '@angular/core';
+import { FormsModule } from '@angular/forms';
+import { CommonModule } from '@angular/common';
 
-describe('NgxTrimDirective', () => {
-  let component: NgxTrimDirective;
-  let fixture: ComponentFixture<NgxTrimDirective>;
-
-  beforeEach(async(() => {
-    TestBed.configureTestingModule({
-      declarations: [NgxTrimDirective]
-    }).compileComponents();
-  }));
-
-  beforeEach(() => {
-    fixture = TestBed.createComponent(NgxTrimDirective);
-    component = fixture.componentInstance;
-    fixture.detectChanges();
-  });
-
-  it('should create', () => {
-    expect(component).toBeTruthy();
-  });
-});
+describe('NgxTrimDirective', () => {});
