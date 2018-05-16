@@ -1,0 +1,9 @@
+<div>
+  <label>Trim after focus out</label>
+  <input type="text" class="form-control" placeholder="Type something" [(ngModel)]="testInput" ngxTrim>
+  <div>{{testInput}}</div>
+  <br/>
+  <label>Trim after key up</label>
+  <input type="text" class="form-control" placeholder="Type something" [(ngModel)]="testInput2" ngxTrim='keyup'>
+  <div>{{testInput2}}</div>
+</div>

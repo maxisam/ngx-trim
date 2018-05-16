@@ -1,0 +1,21 @@
+{
+  "name": "ngx-trim",
+  "version": "1.0.0",
+  "peerDependencies": {
+    "@angular/common": "^6.0.0-rc.0 || ^6.0.0",
+    "@angular/core": "^6.0.0-rc.0 || ^6.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/maxisam/ngx-trim"
+  },
+  "author": {
+    "name": "Sam Lin",
+    "email": "maxisam@gmail.com"
+  },
+  "keywords": ["angular", "trim"],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/maxisam/ngx-trim/issues"
+  }
+}

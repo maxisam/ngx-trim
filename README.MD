@@ -2,8 +2,9 @@
 [![GitHub release](https://img.shields.io/github/release/maxisam/ngx-trim.svg?style=flat-square)](https://github.com/maxisam/ngx-trim/releases)
 [![npm](https://img.shields.io/npm/l/ngx-trim.svg?style=flat-square)]()
 
-
 # ngx-trim
+
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.0.1.
 
 Demo: https://angular-ap2pq8.stackblitz.io
 
@@ -34,18 +35,16 @@ import { AppComponent } from './app.component';
 import { NgxTrimModule } from 'ngx-trim';
 
 @NgModule({
-  declarations: [
-    AppComponent
-  ],
+  declarations: [AppComponent],
   imports: [
     BrowserModule,
-// Import the library    
+    // Import the library
     NgxTrimModule
   ],
   providers: [],
   bootstrap: [AppComponent]
 })
-export class AppModule { }
+export class AppModule {}
 ```
 
 Once your library is imported, you can use its components, directives and pipes in your Angular application:
@@ -54,13 +53,13 @@ Once your library is imported, you can use its components, directives and pipes 
 <!-- You can now use your library component in app.component.html -->
 
 <input type="text"  placeholder="input" [(ngModel)]="testInput" ngxTrim>
-
 ```
+
 ## Features
 
 Trim text after input event, `focusout` or `keyup`.
 
-You can set it as `ngxTrim='focusout'` or 
+You can set it as `ngxTrim='focusout'` or
 
 ## Development
 
@@ -75,7 +74,8 @@ To lint all `*.ts` files:
 ```bash
 $ npm run lint
 ```
-## Acknowledgement 
+
+## Acknowledgement
 
 This project uses [generator-angular2-library](https://github.com/jvandemo/generator-angular2-library)
 
