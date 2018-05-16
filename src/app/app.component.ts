@@ -8,4 +8,7 @@ import { platformBrowserDynamic } from '@angular/platform-browser-dynamic';
   templateUrl: 'app.component.html',
   styleUrls: ['app.component.css']
 })
-export class AppComponent {}
+export class AppComponent {
+  testInput = '';
+  testInput2 = '';
+}
